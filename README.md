@@ -46,6 +46,7 @@ npm run dev
 
 ## Docker container
 * This project is designed to be used with a Docker Container. To run the container, download Docker Desktop: https://www.docker.com/products/docker-desktop/
+* When you have Docker Desktop up and running, download this project as a .zip-folder
 * When you have downloaded this project:
 * * Navigate to the project folder:
     ```
