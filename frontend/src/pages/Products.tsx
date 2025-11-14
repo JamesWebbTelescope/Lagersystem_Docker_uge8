@@ -89,12 +89,14 @@ export default function ProductsPage() {
     const getProducts = async() =>{
         try{
             if (IdRef.current.length > 0) {
+                console.log(IdRef.current.length);
                 const res = await fetch(`${API_URL}/api/product/`)
                 const data: ProductData[] = await res.json()
                 return Array.isArray(data) ? data : [];
             }
             else
             {
+                console.log(IdRef.current.length);
                 const res = await fetch(`${API_URL}/api/product/${IdRef.current}`)
                 const data: ProductData[] = await res.json()
                 return Array.isArray(data) ? data : [];
