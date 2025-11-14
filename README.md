@@ -89,6 +89,13 @@ pytest tests/unit
 pytest tests/integration
 ```
 
+## Design
+This system is designed as a Model-View-View-Model (MVVM) system.
+That means that all data handling is done by the backend and the frontend only handles user inputs and showing the data.
+### Overall system design
+<img width="121" height="291" alt="Frontend API drawio" src="https://github.com/user-attachments/assets/811a4c37-b599-41cd-b9d2-5a04dce749ee" />
+
+
 ## Help
 
 We don't have any help files for this project yet.
