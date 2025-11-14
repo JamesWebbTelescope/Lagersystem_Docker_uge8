@@ -2,6 +2,7 @@
 
 A simple warehouse management system that can be used for tracking orders, order status and warehouse status
 
+
 ## Description
 
 This is a RESTful API utilizing a MySQL server to simulate keeping track of orders and warehouse statuses. It's useful for a variety of scenarios, including online shops, warehouse management systems, postal services, etc.
@@ -43,18 +44,8 @@ npm run dev
 ```
 ### Executing program
 
-* In Visual Studio Code:
-* Open the file __init__.py.
-* Run the file by pressing F5 on your keyboard.
-* In the terminal, if everything works, you will see a line saying "Running on http://###.#.#.#:5000". Copy this address into your preferred web browser and write "/docs" at the end, so it looks like this: http://###.#.#.#:5000/docs
-* Press Enter to go to the website.
-* Right now, the website is under development. Because of this, you will see five namespaces: auth, customer, warehouse, product and order.
-```
-python src/app.py
-```
-
 ## Docker container
-
+* This project is designed to be used with a Docker Container. To run the container, download Docker Desktop: https://www.docker.com/products/docker-desktop/
 * When you have downloaded this project:
 * * Navigate to the project folder:
     ```
