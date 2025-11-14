@@ -35,11 +35,11 @@ pip install -r requirements.txt
 
 #### Frontend
 * Install node.js.
-* Go to `lager-frontend` dir.
+* Go to `frontend` dir.
 * Run commands
 ```
 npm install
-npm run build
+npm run dev
 ```
 ### Executing program
 
