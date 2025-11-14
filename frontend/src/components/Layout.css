@@ -1,0 +1,42 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column; /* header on top, body below */
+  min-height: 100vh;      /* fill full viewport height */
+  width: 100%;            /* fill full viewport width */
+  font-family: Arial, sans-serif;
+}
+.layout-header {
+  background-color: #1f2937;
+  color: white;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navigation links */
+.layout-header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.layout-header nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Main content styling */
+.layout-body {
+  flex: 1;               /* take remaining vertical space */
+  padding: 24px;
+  background-color: #333436;
+  color: aliceblue;
+  width: 100%;           /* ensure body fills horizontal space */
+  box-sizing: border-box; /* padding included in width */
+}

@@ -1,6 +1,6 @@
 {
     "db_name": "lagersystem",
-    "db_host": "172.23.112.1",
+    "db_host": "172.29.176.1",
     "db_user": "root",
     "db_password": "YES",
     "jwt_token": "sLc685I741kB7tUjyUZdI8CmYXwdOeIJvksNLmOENRfATmkrc9-eq2m7_ABc3BFYL9MjCUC6CapJx44sXEnRFA",
